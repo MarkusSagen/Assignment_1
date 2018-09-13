@@ -15,7 +15,7 @@ Saker vi måste göra
 
 Alexander jobbar nu med
 ---
-Fixa respositorien så allt finns
+* Fixa respositorien så allt finns
 
 Markus jobbar nu med
 ---
