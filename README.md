@@ -20,4 +20,6 @@ Alexander jobbar nu med
 
 Markus jobbar nu med
 ---
-
+* Kolla uppgiftsbeskrivningen nogrrannare
+* Läsa igenom uppgiften, målet och lägga in delmål att klara i assignment
+* Lägga in lämpliga delmål att redovisa på måndag
