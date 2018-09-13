@@ -1,0 +1,162 @@
+### Project task list to do:
+
+Add new tasks when needed.
+Remove tasks from the list when both has seen that a task has been completed...
+
+Test Case #4:
+============
+Testing with a fresh key that is not already in use
+Testing with a key that is already in use
+Testing with an invalid key (if at all possible)
+
+
+GENERAL:
+These will be used through out the Assignment:
+
+- [ ] Install gdb for windows / lldb for mac
+- [ ] Install vagrant
+- [ ] Install CUnit
+- [ ] Read up on makefile / make for c-files
+- [ ] Read test cases in the assignment 
+
+==============================================
+
+# Step 0:
+- [ ] Read instruction
+- [x] Impliment test0
+- [x] Compile with flags and add to github, comment "assignment1_step0"
+
+# Step 1:
+- [x] function: Add key and value in hash table (if key is in hash, update value assosiated to the key)
+- [ ] function:  entry_create() 
+- [ ] function: find_entry_for_key()  
+- [ ] function: find_previous_entry_for_key() 
+- [ ] change "entry_t *buckets[17]" to "entry_t buckets[17]"
+- [ ] change "ht->buckets[bucket]" to "&ht->buckets[bucket]"
+- [ ] make "find_previous_entry_for_key()" and "entry_create()" static functions
+- [ ] Make tests for "ioopm_hash_table_insert"
+- [ ] Compile with flags and add to github, comment "assignment1_step1"
+
+
+# Step 2:
+- [x] function: ioopm_hash_table_lookup()
+- [ ] Define struct option to return a "tuple"
+- [ ] change return type of "ioopm_hash_table_lookup()" to "option_t"
+- [ ] Change signature (function input type and output type where needed!)
+- [ ] make tests for "ioopm_hash_table_lookup()"
+- [ ] Compile with flags and add to github, comment "assignment1_step2"
+
+# Step 3:
+- [x] improve: ioopm_hash_table_remove():  
+      -> a) if no entry above it in bucket.. do nothing
+      -> b) else unlink the entry, return memory, move up all entries below
+- [ ] Allocate and deallocate memory goes hand in hand. READ up on function "free()"
+- [ ] improve: ioopm_hash_table_destroy() - remove and free up memory of hash tables 
+- [ ] improve: entry_destroy()            - remove and free up memory of hash entry 
+- [ ] When dealocating a pointer, set it to NULL temporarily!!!
+- [ ] function: ioopm_hash_table_remove() - prevent removing key not in hash table
+- [ ] Remove memory leaks in the program
+- [ ] make Tests for ioopm_hash_table_remove()
+- [ ] Compile with flags and add to github, comment "assignment1_step3"
+
+# Step 4:
+- [x] Install valgrind from ioopm website
+- [ ] Clear memory for ioopm_hash_table_remove() :
+- [ ] -> a) Iterate over all buckets in the buckets array
+- [ ] -> b) For each bucket, iterate over its entries and deallocate them using entry_destroy().
+- [ ] -> c) Deallocate the remaining hash table data structure using free().
+- [ ] Check memory leaks with valgrind "> valgrind --leak-check=full ./name-of-the-program"
+- [ ] make Test to check ioopm_hash_table_destroy() removes all entries and the table
+- [ ] Copile and test through "Valgrind"
+- [ ] Compile with flags and add to github, comment "assignment1_step4"
+
+# Step 5:
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Compile with flags and add to github, comment "assignment1_step5"
+
+# Step 6:
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Compile with flags and add to github, comment "assignment1_step6"
+
+# Step 7:
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Compile with flags and add to github, comment "assignment1_step7"
+
+# Step 8:
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Compile with flags and add to github, comment "assignment1_step8"
+
+# Step 9:
+- [x] Ma9s
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Compile with flags and add to github, comment "assignment1_step9"
+
+# Step 10:
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptu
+- [ ] Compile with flags and add to github, comment "assignment1_step10"
+
+# Step 11:
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Compile with flags and add to github, comment "assignment1_step11"
+
+# Step 12:
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Compile with flags and add to github, comment "assignment1_step12"
+
+# Step 13:
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Compile with flags and add to github, comment "assignment1_step13"
+
+# Step 14:
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Compile with flags and add to github, comment "assignment1_step14"
+
+# Step 15:
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Compile with flags and add to github, comment "assignment1_step15"
+
+
+
