@@ -1,4 +1,4 @@
-//Vår hash_table.h header fil
+//Vår hash_table.h header fil - På avsnitt 2.2 i assignment
 
 #pragma once
 
