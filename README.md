@@ -12,6 +12,7 @@ Annars ska vi ändra något?
 Saker vi måste göra
 ---
 * Fixa repositorien
+* Börja med del 1 av assignment
 
 Alexander jobbar nu med
 ---
